@@ -23,3 +23,7 @@ The docker exec command allows you to run commands inside a Docker container. Th
 
 
 `docker exec -it mongodb mongosh`
+
+**Command line to build a imge from a directory**
+
+`docker build -t mysql-image -f api/db/Dockerfile`

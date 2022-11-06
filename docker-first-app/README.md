@@ -41,5 +41,5 @@ docker run -d -v "$(pwd)/website":/var/www/html -p 8888:80 --link node-container
 
 ### Now Do Your Database:
 ```
-docker exec -i mysql-container mysql -uroot -pprogramadorabordo < api/db/script.sql
+docker exec -i mysql-container mysql -uroot -proot < api/db/script.sql
 ```

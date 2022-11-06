@@ -1,0 +1,25 @@
+{
+  "name": "docker-intro-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon ./src/index"
+  },
+  "keywords": [
+    "Docker",
+    "Nodejs",
+    "Javascript",
+    "Php"
+  ],
+  "author": "Aldair André",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql2": "^2.3.3"
+  }
+}
